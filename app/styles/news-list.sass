@@ -1,0 +1,21 @@
+
+.newslist-container
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(360px, max-content))
+        max-width: 600px
+        justify-content: center
+        margin: 0 auto
+
+        .newslist-box
+            display: grid
+            grid-template-columns: 1fr 
+            gap: 15px
+    
+@media screen and ( min-width: 1140px )  
+    .newslist-container
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(360px, max-content))
+        max-width: 1140px
+      
+        .newslist-box
+            grid-template-columns: 1fr 1fr
