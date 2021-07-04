@@ -1,5 +1,3 @@
-
-
 This project was create with [Webpack](https://webpack.js.org).
 
 ## News App
@@ -9,6 +7,8 @@ This project was create with [Webpack](https://webpack.js.org).
 The API from [https://newsapi.org/docs/endpoints/top-headlines](https://newsapi.org/docs/endpoints/top-headlines) was used for current news. In addition, the app's search filter are saved in local storage.
 
 ## Installation
+
+ Download project "git clone https://github.com/marcin6/react-news.git".
 
  After downloading the repository, run `npm install` to install the dependencies.
 
