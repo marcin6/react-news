@@ -5,9 +5,13 @@ import "regenerator-runtime/runtime";
 import "./styles/main.sass";
 import Search from './components/Search';
 
+import { SearchProvider } from "./context/SearchContext"
+
 export default function App() {
-    return(
-        <Search/>
+    return (
+        <SearchProvider>
+            <Search />
+        </SearchProvider>
     )
 }
 

@@ -46,4 +46,3 @@ if (currTask == "build") {
 }
 
 module.exports = config
-

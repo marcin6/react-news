@@ -6,7 +6,6 @@ export default function Select({
     value,
     elementOnChange
 }) {
-
     return (
         <div>
             <select name={name} value={value} onChange={elementOnChange}>

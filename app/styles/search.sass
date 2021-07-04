@@ -1,11 +1,40 @@
+h1
+    text-align: center
 .search-header
     text-align: center
     padding: 30px
-    .search-country 
+    font-size: 16px
+    position: sticky
+    top: 0px
+    background: #fff
+    .search-country, .search-page-size
         display: flex
         justify-content: center
         padding: 10px
-    .search-page-size
+        select
+            margin-left: 5px
+            border: none
+            border-bottom: 1px solid #000
+            &:focus-visible
+                outline: none
+.search-choose_option
+    padding: 30px
+    font-size: 16px
+    text-align: center
+    position: sticky
+    top: 100px
+    background: #fff
+    span
+        margin-left: 5px
+
+@media screen and ( min-width: 768px )
+    .search-header
         display: flex
+        flex-direction: row
         justify-content: center
-        padding: 10px
+        font-size: 20px
+        .search-country, .search-page-size
+            select
+                font-size: 18px
+    .search-choose_option
+        font-size: 20px
